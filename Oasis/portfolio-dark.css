@@ -1,0 +1,68 @@
+*{
+    transition: all 0.2s ease;
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #121212;
+}
+
+.nav a{
+    color: #ffffff;
+}
+
+.name{
+    color: #ffffff;
+} 
+.button1{
+    border: none;
+    background-color:#121212;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.skill {
+    height: 150px;
+    width: 150px;
+    box-shadow: rgba(255, 68, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(44, 44, 44);
+    margin: 40px 80px 40px 80px;
+}
+
+.skill-text{
+    color: white; 
+    text-align: center;
+}
+
+.fcontainer{
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+@keyframes blink1{
+    0%{
+        box-shadow: rgba(255, 68, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+    50%{
+        box-shadow: 0px 5px 40px -10px rgba(213, 213, 213, 0.57);
+    }
+    100%{
+        box-shadow: rgba(255, 68, 0, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+}
+.profile:hover{
+    box-shadow: 0px 5px 40px -10px rgba(213, 213, 213, 0.57)!important;
+    transition: all 0.3s ease 0s;
+}
+
+.skill:hover{
+    box-shadow: 0px 5px 40px -10px rgba(213, 213, 213, 0.57)!important;
+    transition: all 0.3s ease 0s;
+}
